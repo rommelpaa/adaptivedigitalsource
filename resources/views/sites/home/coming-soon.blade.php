@@ -24,8 +24,12 @@
 			                </div>
 			            @endif
 						<h1 class="text-center">Adaptive Digital Source</h1>
+						<h3 class="text-center"><span class="fa fa-angle-double-right"></span>Coming Soon!<span class="fa fa-angle-double-left"></span></h3>
 						<p class="mb-4 mt-3">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis dui aliquam, facilisis tortor nec, lobortis ipsum. Mauris velit turpis, egestas ac mauris vel, sodales faucibus sapien. In eleifend odio vitae risus posuere, et egestas sem cursus. Etiam porttitor vel eros eu vehicula. Proin eu tincidunt ante. Maecenas scelerisque est a sollicitudin elementum.
+							We are working very hard on our site. This will bring lot of information and services that will help you with your business. 
+						</p>
+						<p class="small">
+							*Please fill in the form, and we will get back to you with our services. We can also keep you posted by subscribing to our newsletter.
 						</p>
 						<form class="form" method="post" action="{{ route('store-coming-soon-page') }}">
 							<div class="form-group">
@@ -39,7 +43,7 @@
 							<div class="form-group">
 								<div class="form-check">
 							  		<input class="form-check-input" type="checkbox" value="1" name="status" id="check-agreement">
-								  	<label class="form-check-label" for="check-agreement">Agreement</label>
+								  	<label class="form-check-label" for="check-agreement">Do you want us to keep you posted to our release and services of our agency? This is like a newsletter that will keep you posted once everything is release.</label>
 								</div>
 							</div>
 							<div class="form-group">
